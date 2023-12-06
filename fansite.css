@@ -1,0 +1,88 @@
+body {
+    background-image: url(./images/Bimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(206, 60, 60);
+    font-family: 'CormorantGaramond', sans-serif;
+    
+
+}
+
+li{
+    list-style-type: none;
+    text-decoration: none;
+
+}
+header{
+    width: 100%;
+    margin-bottom: 20px;
+       
+    
+}
+header nav{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em 0;
+    margin: 0 auto;
+    font-size: 25px;
+    
+    
+    
+}
+.liens-logo ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.liens-logo{
+    width: 80%;
+    
+    
+}
+.liens-logo a{
+    text-decoration: none;
+    color: rgb(206, 60, 60);
+    
+}
+.logo-video{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction:column;
+    margin-left: 925px;
+    
+}
+.logo-video img{
+    width : 255px;
+    height : 103px;
+    margin-left: 140px;
+
+    
+}
+
+.audio-player{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.audio-player audio{
+    width: 100px;
+}
+footer{
+    color: white;
+    width: 100%;
+}
+.mention-legal{
+    display: flex;
+    justify-content: space-evenly;
+}
+h3 {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+@font-face {
+    font-family: 'CormorantGaramond';
+    src: url('./police/CormorantGaramond-Bold.ttf') format('truetype');
+  }
